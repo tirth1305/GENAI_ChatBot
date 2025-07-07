@@ -1,8 +1,8 @@
 import os
 from dotenv import load_dotenv
 import streamlit as st
-from langchain_community.chat_models import AzureChatOpenAI
-from langchain_core.messages import HumanMessage  # Correct import
+from langchain_openai import AzureChatOpenAI
+from langchain_core.messages import HumanMessage
 
 # Load environment variables from .env file
 load_dotenv()
